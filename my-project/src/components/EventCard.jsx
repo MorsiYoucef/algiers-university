@@ -8,9 +8,10 @@ const EventCard = ({ imgURL, name, date }) => {
             {/* <h1 className=" font-bold">{name}</h1> */}
             <h1 className="text-justify">{date}</h1>
           </div>
-          <button class="button-51" role="button">
-            Lire plus
-          </button>
+          <a className="action w-[30%]" href="#">
+            Find out more
+            <span aria-hidden="true">→</span>
+          </a>
         </div>
       </div>
     </div>

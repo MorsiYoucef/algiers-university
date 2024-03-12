@@ -122,3 +122,10 @@ export const VieEtud = [
     description: `Un espace spécial consacré aux dernières questions liées aux bourses et aux programmes de formation à l'étranger`,
   },
 ]
+
+export const IslamiqueImages = [
+  { imgURL: '/assets/images/andalous.jpg' },
+  { imgURL: '/assets/images/journee.jpg' },
+  { imgURL: '/assets/images/famille.png' },
+  { imgURL: '/assets/images/femme.png' },
+]

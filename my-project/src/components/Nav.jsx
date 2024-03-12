@@ -22,7 +22,7 @@ const Nav = () => {
         <div>
           <select
             name="language"
-            className=" bg-my-blue bg-opacity-25 border-l-2 "
+            className=" bg-my-blue bg-opacity-25 border-l-2 text-xl h-10 "
           >
             <option value="Fr">Fr</option>
             <option value="En">En</option>

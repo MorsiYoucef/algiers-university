@@ -10,7 +10,7 @@ const VieEtudiant = () => {
         className=" w-full h-[150px]"
       />
       <h1 className=" text-[60px] font-bold flex justify-center relative bottom-16 text-white">
-        VIE ETUDIANT
+        VIE ETUDIANTE
       </h1>
       <div className=" flex justify-center items-center gap-10 p-10">
         {VieEtud.map((etudiant) => (
