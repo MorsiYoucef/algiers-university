@@ -194,7 +194,7 @@ const Science = () => {
             alt=""
             className=" absolute bottom-72 "
           />
-          <h1 className="">
+          <h1 className=" text-2xl relative bottom-40 left-40 text-white">
             Activités scientifiques, culturelles et sportives
           </h1>
           <p>
