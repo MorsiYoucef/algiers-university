@@ -1,18 +1,18 @@
-const IslamiCard = ({ imgURL }) => {
+const IslamiCard = ({ imgURL, title, date }) => {
   return (
     <div
       className="card-3"
       style={{
         backgroundImage: `url(${imgURL})`,
         backgroundSize: 'cover',
-        opacity: '80%',
+        opacity: '90%',
+        width: '100%',
+        height: '100%',
       }}
     >
-      <h3 className="card__title-2">Title</h3>
-      <p className="card__content-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.{' '}
-      </p>
-      <div className="card__date-2">April 15, 2022</div>
+      <div className="feature"></div>
+      <h3 className="card__title-2">{title}</h3>
+      <div className="card__date-2">{date}</div>
       <div className="card__arrow">
         <svg
           xmlns="http://www.w3.org/2000/svg"

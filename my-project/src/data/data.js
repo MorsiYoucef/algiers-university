@@ -104,6 +104,40 @@ export const Events = [
     date: 'Le lundi 15 janvier 2024, une réunion de la commission de vérification représentant la Commission Nationale de l’Enseignement à Distance (CNEAD) s’est tenue avec les responsables de l’université chargés des dossiers de l’activité universitaire...',
   },
 ]
+export const ScienceProg = [
+  { title: 'Decanat', imgURL: '/assets/images/admin 1.svg' },
+  { title: 'Informatique', imgURL: '/assets/images/admin 2.svg' },
+  { title: 'Mathematique', imgURL: '/assets/images/admin 3.svg' },
+  { title: 'Architecture', imgURL: '/assets/images/admin 4.png' },
+  {
+    title: 'Science de la matiere',
+    imgURL: '/assets/images/admin 5.png',
+  },
+  { title: 'Science de la vie', imgURL: '/assets/images/admin 6.png' },
+]
+
+export const scienceNew = [
+  {
+    title: 'Reaching for the STARS in sustainability',
+    description:
+      'University earns Platinum status in major sustainability rating six years ahead of target',
+  },
+  {
+    title: 'Reaching for the STARS in sustainability',
+    description:
+      'University earns Platinum status in major sustainability rating six years ahead of target',
+  },
+  {
+    title: 'Reaching for the STARS in sustainability',
+    description:
+      'University earns Platinum status in major sustainability rating six years ahead of target',
+  },
+  {
+    title: 'Reaching for the STARS in sustainability',
+    description:
+      'University earns Platinum status in major sustainability rating six years ahead of target',
+  },
+]
 
 export const VieEtud = [
   {
@@ -128,4 +162,111 @@ export const IslamiqueImages = [
   { imgURL: '/assets/images/journee.jpg' },
   { imgURL: '/assets/images/famille.png' },
   { imgURL: '/assets/images/femme.png' },
+]
+
+export const items = [
+  {
+    imgURL: '',
+    date: '',
+    name: 'إعلان خاص بالأساتذة رؤساء وأعضاء مشاريع البحث النكويني الجامعي(PRFU)',
+    category: 'اعلانات للأساتذة',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'إعلان هام للأساتذة بضرورة الرد على التظلمات',
+    category: 'اعلانات للأساتذة',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'تهنئة ترقية الأساتذة – كلية العلوم الإسلامية',
+    category: 'اعلانات للأساتذة',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'المسابقة الطلابية التحديث البيئي و الاجتماعي و الإقتصادي SHESEM 2024',
+    category: 'النشاطات الثقافية و الرياضية',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'برنامج تعاون ” المسرح في رحاب الجامعة “',
+    category: 'النشاطات الثقافية و الرياضية',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'إعلان بخصوص تنظيم دورات تكوينية في رياضة الريجبي(RUGBY)',
+    category: 'النشاطات الثقافية و الرياضية',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'مناقشة أطروحة دكتوراه – أثر الاتفاقيات الدولية على الاجتهاد القضائي في قانون الأسرة الجزائري',
+    category: 'طور الدكتوراه ',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'مناقشة رسالة الدكتوراه- محمد أمين شعبي-',
+    category: 'طور الدكتوراه ',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'إعلان حول منحة تحسين المستوى- أساتذة وطلبة الدكتوراة –',
+    category: 'طور الدكتوراه ',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'تفويج طلبة السنة الأولى جذع مشترك',
+    category: 'طور الماستر ',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'وضع حيز الخدمة خاصية الدفع الالكتروني لحقوق التسجيل',
+    category: 'طور الماستر ',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'مناقشات الماستر 2',
+    category: 'طور الماستر ',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'تفويج طلبة السنة الأولى جذع مشترك',
+    category: 'طور الليسانس ',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'قوائم الطلبة -قسم العقائد و الأديان',
+    category: 'طور الليسانس ',
+  },
+  {
+    imgURL: '',
+    date: '',
+    title: '',
+    name: 'وضع حيز الخدمة خاصية الدفع الالكتروني لحقوق التسجيل',
+    category: 'طور الليسانس ',
+  },
 ]

@@ -22,7 +22,8 @@ export default {
         primary: '#ECEEFF',
         'my-blue': '#1D0A5B',
         'my-orange': '#ff7518',
-        'my-green': '#15803D',
+        'my-green': '#1D0A5B',
+        'my-original-green': '#15803D',
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)',

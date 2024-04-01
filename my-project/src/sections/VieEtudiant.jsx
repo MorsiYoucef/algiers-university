@@ -7,9 +7,9 @@ const VieEtudiant = () => {
       <img
         src="/assets/icons/patternpad.svg"
         alt="pattern"
-        className=" w-full h-[150px]"
+        className=" w-full h-[100px]"
       />
-      <h1 className=" text-[60px] font-bold flex justify-center relative bottom-16 text-white">
+      <h1 className=" text-[40px] font-bold flex justify-center relative bottom-11 text-white">
         VIE ETUDIANTE
       </h1>
       <div className=" flex justify-center items-center gap-10 p-10">

@@ -26,7 +26,7 @@ html {
   }
   .slider {
     @apply bg-cover h-[65vh] w-full shadow-lg;
-    background-image: url('/assets/images/anotheralgiers.jpg');
+    background-image: url('/assets/images/anotheralgiers 1.svg');
   }
 }
 
@@ -118,7 +118,7 @@ html {
 
 /*Hover*/
 .card:hover {
-  border-color: #ff7518;
+  border-color: #1d0a5b;
   box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -223,7 +223,7 @@ html {
 
 .card__title {
   margin: 0;
-  font-size: 24px;
+  font-size: 14px;
   color: #333;
   font-weight: 700;
 }
@@ -290,9 +290,10 @@ hr {
   display: inline-flex;
   margin-top: 1rem;
   color: #1d0a5b;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 500;
+  font-size: 15px;
+  /* font-size: 0.75rem;
+  line-height: 1.25rem; */
+  /* font-weight: 500; */
   align-items: center;
   gap: 0.25rem;
   background-color: #ff7518;
@@ -312,7 +313,7 @@ hr {
 .container-input {
   position: relative;
 }
-
+/* search bar in science islamique */
 .input {
   width: 150px;
   padding: 10px 0px 10px 40px;
@@ -335,22 +336,27 @@ hr {
   opacity: 1;
   width: 250px;
 }
-/* this card is inspired form this - https://georgefrancis.dev/ */
+/* this card is for new of hero page in science islamique */
 
 .card-3 {
   --border-radius: 0.75rem;
   --primary-color: #15803d;
-  --secondary-color: #3c3852;
+  --secondary-color: #64ab7e;
   width: auto;
   font-family: 'Arial';
   padding: 1rem;
   cursor: pointer;
-  border-radius: var(--border-radius);
   color: white;
+  padding: 0px;
   box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 3%);
   position: relative;
 }
+.feature {
+  background: rgba(0, 0, 0, 0.6);
 
+  min-width: 100%;
+  min-height: 100%;
+}
 .card-3 > * + * {
   margin-top: 1.1em;
 }
@@ -363,21 +369,26 @@ hr {
 
 .card-3 .card__title-2 {
   padding: 0;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
+  direction: rtl;
+  position: absolute;
+  bottom: 50px;
+  right: 16px;
 }
 
 .card-3 .card__date-2 {
-  color: #6e6b80;
+  color: white;
   font-size: 0.8rem;
+  position: absolute;
+  bottom: 30px;
+  right: 16px;
 }
 
 .card-3 .card__arrow {
   position: absolute;
   background: var(--primary-color);
   padding: 0.4rem;
-  border-top-left-radius: var(--border-radius);
-  border-bottom-right-radius: var(--border-radius);
   bottom: 0;
   right: 0;
   transition: 0.2s;
@@ -402,4 +413,84 @@ hr {
 
 .card-3:hover .card__arrow svg {
   transform: translateX(3px);
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.button {
+  border: 1px solid #000;
+  background: transparent;
+  margin: 5px 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0);
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  padding: 4px 10px;
+  min-width: 100px;
+  min-height: 50px;
+  margin: 4px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category {
+  color: #64748b;
+  font-size: 10px;
+}
+
+.active {
+  background-color: #078e38;
+  color: #fff;
+}
+
+.card-4 {
+  width: 390px;
+  height: 354px;
+  background: white;
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  left: 180px;
+  bottom: 300px;
+}
+
+.shadow {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  width: 130px;
+  height: 40px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: #1d0a5b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+.btn:hover {
+  background-color: #190b46;
 }
