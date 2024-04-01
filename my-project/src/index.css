@@ -28,6 +28,10 @@ html {
     @apply bg-cover h-[65vh] w-full shadow-lg;
     background-image: url('/assets/images/anotheralgiers 1.svg');
   }
+  .sport {
+    @apply bg-cover w-full h-full shadow-lg;
+    background-image: url('/assets/images/Rectangle 119.svg');
+  }
 }
 
 .card {
@@ -493,4 +497,24 @@ hr {
 }
 .btn:hover {
   background-color: #190b46;
+}
+
+.consulter {
+  width: 120px;
+  height: 50px;
+  color: #190b46;
+  border: 3px solid #87ceeb;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+
+  font-weight: 550;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.consulter:hover {
+  background: #87ceeb;
+  color: #190b46;
+  font-size: 1em;
 }

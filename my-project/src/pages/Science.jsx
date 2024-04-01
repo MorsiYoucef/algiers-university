@@ -187,21 +187,20 @@ const Science = () => {
             </div>
           </div>
         </section>
-        <section>
-          <img src="/assets/images/Rectangle 119.svg" alt="" />
-          <img
-            src="/assets/images/TS-logo-w 1.svg"
-            alt=""
-            className=" absolute bottom-72 "
-          />
-          <h1 className=" text-2xl relative bottom-40 left-40 text-white">
-            Activités scientifiques, culturelles et sportives
-          </h1>
-          <p>
-            La faculté en association avec les organisations estudiantines et
-            les clubs scientifiques organise et développe des activités
-            scientifiques, culturelles et sportives.
-          </p>
+        <section className=" sport">
+          {/* <img src="/assets/images/Rectangle 119.svg" alt="" /> */}
+          <img src="/assets/images/TS-logo-w 1.svg" alt="" className="" />
+          <div className=" flex flex-col justify-center items-center relative bottom-20 gap-5">
+            <h1 className=" text-2xl  font-bold text-white">
+              Activités scientifiques, culturelles et sportives
+            </h1>
+            <p className="  w-[600px] text-center text-xl  font-bold text-white">
+              La faculté en association avec les organisations estudiantines et
+              les clubs scientifiques organise et développe des activités
+              scientifiques, culturelles et sportives.
+            </p>
+            <button className=" consulter  ">Button</button>
+          </div>
         </section>
       </div>
       <div className=" bg-my-blue grid grid-cols-4 text-white p-10 ">
