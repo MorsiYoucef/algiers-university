@@ -4,6 +4,7 @@ import SearchBar from '../components/SearchBar'
 import ScienceNew from '../components/ScienceNew'
 import { ScienceProg } from '../data/data'
 import FaculteNav from '../components/FaculteNav'
+import Info from '../components/info'
 
 const Science = () => {
   return (
@@ -16,18 +17,7 @@ const Science = () => {
 
       <div className=" max-w-[1286px] relative left-[12%] border-l border-r ">
         <section>
-          <div className=" bg-my-green text-white ">
-            <ul className=" flex flex-row justify-center items-center gap-24">
-              <li>Acueille</li>
-              <li>formation</li>
-              <li>Departement</li>
-              <li> Vie a la faculte</li>
-              <li>Bibliotheque</li>
-              <li>
-                <SearchBar />
-              </li>
-            </ul>
-          </div>
+          <Info />
         </section>{' '}
         <section>
           <div className="feature"></div>

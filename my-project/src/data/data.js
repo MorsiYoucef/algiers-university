@@ -270,3 +270,11 @@ export const items = [
     category: 'طور الليسانس ',
   },
 ]
+
+export const scienceNav = [
+  { title: 'Acueille' },
+  { title: 'formation' },
+  { title: 'Departement' },
+  { title: 'Vie a la faculte' },
+  { title: 'Bibliotheque' },
+]
