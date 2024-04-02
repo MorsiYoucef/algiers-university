@@ -45,6 +45,7 @@ const Science = () => {
         </section>
       </div>
       <div className="bg-my-blue grid gap-10 pt-10">
+        hello wrold
         <Footer />
       </div>
     </div>
