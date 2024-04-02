@@ -1,5 +1,6 @@
 import React from 'react'
 import { scienceNav } from '../data/data'
+import SearchBar from './SearchBar'
 
 const Info = () => {
   return (

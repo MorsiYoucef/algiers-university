@@ -278,3 +278,16 @@ export const scienceNav = [
   { title: 'Vie a la faculte' },
   { title: 'Bibliotheque' },
 ]
+
+export const ClubS = [
+  { imgURL: '/assets/images/archi.jpg', title: 'Archi benevoles' },
+  { imgURL: '/assets/images/hope.jpg', title: 'Hope Buds club' },
+  { imgURL: '/assets/images/quanta.jpg', title: 'Quanta Club' },
+  { imgURL: '/assets/images/openS.jpg', title: 'Open source' },
+]
+
+export const ScienceStat = [
+  { iconURL: '/assets/icons/prof.svg', num: '+595', title: 'Etudiant' },
+  { iconURL: '/assets/icons/student.svg', num: '+285', title: 'Enseignant' },
+  { iconURL: '/assets/icons/users-solid 2.svg', num: '+178', title: 'ATS' },
+]

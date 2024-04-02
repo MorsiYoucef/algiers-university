@@ -33,12 +33,7 @@ function App() {
         </section>
       </div>
       <section className=" bg-my-blue grid gap-10 pt-10 ">
-        {/* <NewsLetter /> */}
-        {/* <div className=" w-[700px] h-0.5 bg-white relative left-[600px]"></div> */}
         <Footer />
-        <h1 className=" flex justify-center items-center text-white p-5">
-          © 2024 |Université D'Alger 1
-        </h1>
       </section>
     </main>
   )
