@@ -1,5 +1,5 @@
-import Plateform from '../components/Plateform'
-import { HeroRight } from '../data/data'
+import Plateform from '../../components/Plateform'
+import { HeroRight } from '../../data/data'
 
 const Hero = () => {
   return (

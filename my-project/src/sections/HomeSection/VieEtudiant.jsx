@@ -1,5 +1,5 @@
-import { VieEtud } from '../data/data'
-import VieCard from '../components/VieCard'
+import { VieEtud } from '../../data/data'
+import VieCard from '../../components/VieCard'
 
 const VieEtudiant = () => {
   return (

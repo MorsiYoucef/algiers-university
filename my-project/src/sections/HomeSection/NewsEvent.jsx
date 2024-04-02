@@ -1,5 +1,5 @@
-import { News } from '../data/data'
-import NewCard from '../components/NewCard'
+import { News } from '../../data/data'
+import NewCard from '../../components/NewCard'
 
 const NewsEvent = () => {
   return (

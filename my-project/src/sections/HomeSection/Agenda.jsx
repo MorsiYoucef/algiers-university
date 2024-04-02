@@ -1,5 +1,5 @@
-import { Events } from '../data/data'
-import EventCard from '../components/EventCard'
+import { Events } from '../../data/data'
+import EventCard from '../../components/EventCard'
 
 const Agenda = () => {
   return (

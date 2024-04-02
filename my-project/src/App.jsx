@@ -1,10 +1,15 @@
 import Nav from './components/Nav'
-import { Hero, NewsEvent, StageReunion, Formation } from './sections'
-import Agenda from './sections/Agenda'
+import {
+  Hero,
+  NewsEvent,
+  StageReunion,
+  Formation,
+} from './sections/HomeSection'
+import Agenda from './sections/HomeSection/Agenda'
 import './index.css'
-import Footer from './sections/Footer'
+import Footer from './sections/HomeSection/Footer'
 // import NewsLetter from './sections/NewsLetter'
-import VieEtudiant from './sections/VieEtudiant'
+import VieEtudiant from './sections/HomeSection/VieEtudiant'
 
 function App() {
   return (

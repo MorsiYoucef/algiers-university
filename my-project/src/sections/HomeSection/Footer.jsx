@@ -1,5 +1,5 @@
-import { NavLeft, NavRight } from '../data/data'
-import TwoItems from '../components/TowItems'
+import { NavLeft, NavRight } from '../../data/data'
+import TwoItems from '../../components/TowItems'
 
 const Footer = () => {
   return (
