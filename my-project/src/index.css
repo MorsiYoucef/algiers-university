@@ -28,6 +28,10 @@ html {
     @apply bg-cover h-[65vh] w-full shadow-lg;
     background-image: url('/assets/images/anotheralgiers 1.svg');
   }
+  .medecineIMG {
+    @apply bg-cover h-[65vh] w-full shadow-lg;
+    background-image: url('/assets/images/medecineF.jpg');
+  }
   .sport {
     @apply bg-cover w-full h-full shadow-lg;
     background-image: url('/assets/images/Rectangle 119.svg');

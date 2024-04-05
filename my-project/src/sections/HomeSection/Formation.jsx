@@ -6,14 +6,17 @@ const Formation = () => {
       <h1 className=" text-2xl  text-center font-bold">
         LES COMPOSANTES ET ÉTABLISSEMENTS COMPOSANTES DE L'UNIVERSITÉ
       </h1>
+
       <div className=" flex flex-wrap justify-center items-center gap-20">
-        <div className=" flex  flex-col  text-justify border justify-center items-center p-5 gap-2">
-          <img src="/assets/images/logocard.jpg" alt="logo" width={200} />
-          <hr />
-          <h1 className="text-2xl font-bold text-my-blue ">
-            Faculte de <span className=" text-red-500">Medcine</span>
-          </h1>
-        </div>
+        <Link to="/Medecine">
+          <div className=" flex  flex-col  text-justify border justify-center items-center p-5 gap-2">
+            <img src="/assets/images/logocard.jpg" alt="logo" width={200} />
+            <hr />
+            <h1 className="text-2xl font-bold text-my-blue ">
+              Faculte de <span className=" text-red-500">Medcine</span>
+            </h1>
+          </div>
+        </Link>
         <div className=" flex  flex-col  text-justify border justify-center items-center p-5 gap-2">
           <img src="/assets/images/logocard.jpg" alt="logo" width={200} />
           <hr />

@@ -10,15 +10,15 @@ import Footer from '../sections/ScienceSection/Footer'
 
 const Science = () => {
   return (
-    <div>
+    <main>
       <FaculteNav
         arabTitle="العلـــــــــوم"
         mainTitle="Science"
         mainColor="text-blue-400"
       />
 
-      <div className=" max-w-[1286px] relative left-[12%] border-l border-r ">
-        <section>
+      <div className=" max-w-[1286px] mx-auto border-l border-r ">
+        <section className=" flex justify-center items-center  w-full">
           <Info />
         </section>{' '}
         <section>
@@ -47,7 +47,7 @@ const Science = () => {
       <div className="bg-my-blue grid gap-10 pt-10">
         <Footer />
       </div>
-    </div>
+    </main>
   )
 }
 

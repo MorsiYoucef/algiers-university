@@ -3,8 +3,8 @@ import TwoItems from '../components/TowItems'
 
 const FaculteNav = (props) => {
   return (
-    <div>
-      <div className=" grid grid-cols-3 justify-items-end align-items-end bg-my-green text-white gap-0 h-10">
+    <div className=" ">
+      <div className=" grid grid-cols-3 justify-items-end align-items-end bg-my-green text-white gap-0 ">
         <div className=" flex flex-row gap-8 justify-center items-center ">
           {NavLeft.map((left) => (
             <h1 className=" border-l-2 border-r-2 pl-2 pr-2">
@@ -47,7 +47,7 @@ const FaculteNav = (props) => {
           </div>
         </div>
       </div>
-      <div className=" border-b">
+      <div className=" border-b ">
         <div className=" flex justify-center items-center">
           <img
             src="/assets/images/blueLogo.png"
