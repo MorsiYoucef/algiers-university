@@ -44,11 +44,11 @@ export const HeroRight = [
 export const HeroMed = [
   {
     imgURL: '/assets/icons/platform.svg',
-    title: 'Platform moodle',
+    title: 'Graduation Préclinique',
   },
   {
     imgURL: '/assets/icons/book-.svg',
-    title: 'Bibliotheque',
+    title: 'Graduation Clinique',
   },
   {
     imgURL: '/assets/icons/translate-svgrepo-com.svg',

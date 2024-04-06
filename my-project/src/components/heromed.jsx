@@ -11,9 +11,6 @@ const Heromed = () => {
         {HeroMed.map((plat) => (
           <MedNew key={plat.title} {...plat} />
         ))}
-        {/* {HeroMed.map((plat) => (
-            <Plateform key={plat.title} {...plat} />
-          ))} */}
       </div>
     </section>
   )

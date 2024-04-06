@@ -2,11 +2,11 @@ const Hisstat = () => {
   return (
     <section>
       <div className="medback ">
-        <div className="featuree text-white p-20">
+        <div className="featuree text-white p-20 grid">
           <h1 className=" text-3xl font-bold ">
             LA FACULTÉ DE MÉDECINE  d’ALGER 1
           </h1>
-          <div>
+          <div className=" flex gap-16">
             <p className=" font-bold w-[50%] text-justify">
               La Faculté De Médecine et de Pharmacie d’Alger est l’une des plus
               anciennes faculté de médecine du continent africain. En effet elle
@@ -24,12 +24,16 @@ const Hisstat = () => {
               autorisée à délivrer étaient ceux " d'officiers de santé,
               pharmaciens et sages-femmes de 2èmeclasse "...
             </p>
-            <div>
+            <div className=" text-3xl font-bold grid">
               <div>8600  étudiants</div>
+              <div className=" w-full border-t-2 border-dashed"></div>
               <div> 25  unités de recherche</div>
+              <div className=" w-full border-t-2 border-dashed"></div>
               <div>3 hôpitaux constituent le CHU</div>
+              <div className=" w-full border-t-2 border-dashed"></div>
             </div>{' '}
           </div>
+          <button className=" bg-red-600 text-white w-[10%]">Lire Plus</button>
         </div>
       </div>
     </section>
