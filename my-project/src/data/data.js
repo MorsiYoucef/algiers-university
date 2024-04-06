@@ -41,6 +41,21 @@ export const HeroRight = [
     title: `Portail MERS`,
   },
 ]
+export const HeroMed = [
+  {
+    imgURL: '/assets/icons/platform.svg',
+    title: 'Platform moodle',
+  },
+  {
+    imgURL: '/assets/icons/book-.svg',
+    title: 'Bibliotheque',
+  },
+  {
+    imgURL: '/assets/icons/translate-svgrepo-com.svg',
+    title: `CEIL`,
+  },
+  { imgURL: '/assets/icons/interro.svg', title: 'Reclamation' },
+]
 
 export const News = [
   {

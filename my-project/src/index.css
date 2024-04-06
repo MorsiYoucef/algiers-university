@@ -30,7 +30,11 @@ html {
   }
   .medecineIMG {
     @apply bg-cover h-[65vh] w-full shadow-lg;
-    background-image: url('/assets/images/medecineF.jpg');
+    background-image: url('/assets/images/me.jpg');
+  }
+  .medback {
+    @apply bg-cover w-full  h-[80vh] shadow-lg;
+    background-image: url('/assets/images/medcine.jpg');
   }
   .sport {
     @apply bg-cover w-full h-full shadow-lg;
@@ -362,6 +366,17 @@ hr {
 .feature {
   background: rgba(0, 0, 0, 0.6);
 
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.featureee {
+  background: rgba(0, 0, 0, 0.2);
+  min-width: 100%;
+  min-height: 100%;
+}
+.featuree {
+  background: rgba(248, 113, 113, 0.7);
   min-width: 100%;
   min-height: 100%;
 }
