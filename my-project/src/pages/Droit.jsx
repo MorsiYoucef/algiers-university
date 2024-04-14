@@ -1,5 +1,6 @@
 import FaculteNav from '../components/FaculteNav'
 import InfoArab from '../components/InfoArab'
+import HeroDroit from '../sections/DroitSection/HeroDroit'
 
 const Droit = () => {
   return (
@@ -13,6 +14,9 @@ const Droit = () => {
         <section className=" flex justify-center items-center  w-full">
           <InfoArab />
         </section>{' '}
+        <section>
+          <HeroDroit />
+        </section>
       </div>
     </main>
   )

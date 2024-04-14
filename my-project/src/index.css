@@ -38,7 +38,7 @@ html {
   }
   .DroitIMG {
     @apply bg-cover h-[65vh] w-full shadow-lg;
-    background-image: url('/assets/images/pharm.jpg');
+    background-image: url('/assets/images/droit-stretch.jpg');
   }
   .medback {
     @apply bg-cover w-full  h-[80vh] shadow-lg;
