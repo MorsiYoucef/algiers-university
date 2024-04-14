@@ -5,12 +5,15 @@ const Heromed = () => {
   return (
     <section>
       <div className="medecineIMG ">
-        <div className="featureee"></div>
+        <div className="featureeee"></div>
       </div>
       <div className=" flex h-20">
         {HeroMed.map((plat) => (
           <MedNew key={plat.title} {...plat} />
         ))}
+        {/* {HeroMed.map((plat) => (
+          <MedNew key={plat.title} {...plat} />
+        ))} */}
       </div>
     </section>
   )

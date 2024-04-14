@@ -4,14 +4,15 @@ import Hisstat from '../components/his-stat'
 import Info from '../components/info'
 import NosActualite from '../components/NosActualite'
 import Footer from '../sections/HomeSection/Footer'
+import HeroPhar from '../sections/PharmacySection/HeroPhar'
 
-const Medecine = () => {
+const Pharmacy = () => {
   return (
     <main>
       <FaculteNav
-        arabTitle="الطــــــــــــب"
-        mainTitle="Medecine"
-        mainColor="text-red-600"
+        arabTitle="الصيدلــــــــــة"
+        mainTitle="Pharmacy"
+        mainColor="text-yellow-400"
       />
 
       <div className=" max-w-[1286px] mx-auto border-l border-r ">
@@ -19,14 +20,14 @@ const Medecine = () => {
           <Info />
         </section>{' '}
         <section>
-          <Heromed />
+          <HeroPhar />
         </section>
         <section>
           <NosActualite />
         </section>
         <section className=" p-16">
           <Hisstat
-            title="LA FACULTÉ DE Medecine d’ALGER 1"
+            title="LA FACULTÉ DE Pharmacie d’ALGER 1"
             description="La Faculté De Médecine et de Pharmacie d’Alger est l’une des plus
               anciennes faculté de médecine du continent africain. En effet elle
               est l’héritière de l’Ecole préparatoire de médecine   et de
@@ -45,9 +46,10 @@ const Medecine = () => {
             stat1="8600  étudiants"
             stat2="25  unités de recherche"
             stat3="3 hôpitaux constituent le CHU"
-            color="featuree"
-            textColor="text-white"
-            btnColor="bg-red-600"
+            color="featureee"
+            btnColor="bg-yellow-500"
+            textColor="text-my-blue"
+            borderColor="border-my-blue"
           />
         </section>
       </div>
@@ -58,4 +60,4 @@ const Medecine = () => {
   )
 }
 
-export default Medecine
+export default Pharmacy

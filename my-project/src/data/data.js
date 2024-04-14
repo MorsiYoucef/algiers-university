@@ -56,6 +56,18 @@ export const HeroMed = [
   },
   { imgURL: '/assets/icons/interro.svg', title: 'Reclamation' },
 ]
+export const Heropharmacy = [
+  {
+    title: 'Emploie du temps',
+  },
+  {
+    title: 'Examens',
+  },
+  {
+    title: 'Notes aux étudiants',
+  },
+  { title: 'Delibiration' },
+]
 
 export const News = [
   {

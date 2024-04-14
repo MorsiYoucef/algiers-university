@@ -32,6 +32,10 @@ html {
     @apply bg-cover h-[65vh] w-full shadow-lg;
     background-image: url('/assets/images/me.jpg');
   }
+  .pharmacyIMG {
+    @apply bg-cover h-[65vh] w-full shadow-lg;
+    background-image: url('/assets/images/pharm.jpg');
+  }
   .medback {
     @apply bg-cover w-full  h-[80vh] shadow-lg;
     background-image: url('/assets/images/medcine.jpg');
@@ -44,13 +48,15 @@ html {
 
 .card {
   width: auto;
-  height: auto;
+  height: 45vh;
+  margin-bottom: 20px;
   /* border-radius: 20px; */
   background: #f5f5f5;
   position: relative;
   border: 2px solid #c3c6ce;
   transition: 0.5s ease-out;
   overflow: visible;
+  margin-right: 20px;
 }
 
 .card-details {
@@ -58,6 +64,7 @@ html {
   height: 100%;
   display: grid;
   justify-content: space-between;
+
   /* gap: 20px; */
 }
 
@@ -377,6 +384,11 @@ hr {
 }
 .featuree {
   background: rgba(248, 113, 113, 0.7);
+  min-width: 100%;
+  min-height: 100%;
+}
+.featureee {
+  background: rgba(250, 244, 132, 0.7);
   min-width: 100%;
   min-height: 100%;
 }

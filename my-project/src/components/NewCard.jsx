@@ -1,4 +1,4 @@
-const NewCard = ({ imgURL, title, date, width }) => {
+const NewCard = ({ imgURL, title, date }) => {
   return (
     <div class="card">
       <div class="card-details">
