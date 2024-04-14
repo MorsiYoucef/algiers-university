@@ -1,6 +1,6 @@
 const Presen = () => {
   return (
-    <div className=" p-10 grid gap-5">
+    <div className=" grid gap-5">
       <h1 className=" text-3xl text-right border-b-2 p-5">
         كلمـــــــة العميــــــد
       </h1>
