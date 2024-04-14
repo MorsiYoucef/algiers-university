@@ -1,6 +1,7 @@
 import FaculteNav from '../components/FaculteNav'
 import InfoArab from '../components/InfoArab'
 import HeroDroit from '../sections/DroitSection/HeroDroit'
+import Presen from '../sections/DroitSection/Presen'
 
 const Droit = () => {
   return (
@@ -16,6 +17,9 @@ const Droit = () => {
         </section>{' '}
         <section>
           <HeroDroit />
+        </section>
+        <section>
+          <Presen />
         </section>
       </div>
     </main>
