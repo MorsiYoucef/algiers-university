@@ -36,6 +36,10 @@ html {
     @apply bg-cover h-[65vh] w-full shadow-lg;
     background-image: url('/assets/images/pharm.jpg');
   }
+  .DroitIMG {
+    @apply bg-cover h-[65vh] w-full shadow-lg;
+    background-image: url('/assets/images/pharm.jpg');
+  }
   .medback {
     @apply bg-cover w-full  h-[80vh] shadow-lg;
     background-image: url('/assets/images/medcine.jpg');

@@ -305,6 +305,16 @@ export const scienceNav = [
   { title: 'Vie a la faculte' },
   { title: 'Bibliotheque' },
 ]
+export const islamiqueNav = [
+  { title: 'عن الكلية' },
+  { title: 'الأقسام' },
+  { title: 'هيئة التدريس' },
+  { title: 'المجلس العلمي' },
+  { title: 'البحث و الانتاج العلمي و الثقافي' },
+  { title: 'خدمات عن بعد' },
+  { title: 'المكتبة' },
+  { title: 'تواصل معنا' },
+]
 
 export const ClubS = [
   { imgURL: '/assets/images/archi.jpg', title: 'Archi benevoles' },
