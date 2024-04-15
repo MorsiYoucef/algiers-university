@@ -328,3 +328,53 @@ export const ScienceStat = [
   { iconURL: '/assets/icons/student.svg', num: '+285', title: 'Enseignant' },
   { iconURL: '/assets/icons/users-solid 2.svg', num: '+178', title: 'ATS' },
 ]
+
+export const DroitNewsContent = [
+  { title: 'إعلان خاص بمنصة مودل', discription: '' },
+  {
+    title: 'إعلان خاص بتحسسن ملف المنح العائلية',
+    discription: '',
+  },
+  {
+    title:
+      'إعلان عن فتح باب الترشح لبرنامج الحركية قصيرة المدى بالخارج لسنة 2024',
+    discription: '',
+  },
+  {
+    title: 'إعلان بخصوص استهلاك التربص لحركية قصيرة المدى بالخارج لسنة 2023 ',
+    discription: '',
+  },
+  {
+    title: 'تحميل حوالة دفع حقوق التسجيل لطلبة الدكتوراه (علوم ، ل م د)',
+    discription: '',
+  },
+  {
+    title: 'إعلان إلى الطلبة الآتية اسماؤهم لاستلام بطاقة الطالب',
+    discription: '',
+  },
+  { title: 'فتح الترشح لمنح دراسية لرومانيا', discription: '' },
+  { title: 'فتح الترشح لمنح دراسية لجمهورية موريشيوس', discription: '' },
+  {
+    title: 'فيديو توضيحي لكيفية إدخال النقاط في بروقراس --تحيين--',
+    discription: '',
+  },
+  { title: 'إعلان خاص بالديون', discription: '' },
+  {
+    title: 'للاطلاع على برامج الإمتحانات *الليسانس والماستر*',
+    discription: '',
+  },
+  { title: 'للاطلاع على مواضيع مذكرات الماستر اضغط هنا', discription: '' },
+  // { title: '', discription: '' },
+  // { title: '', discription: '' },
+]
+
+export const DroitPlatforme = [
+  { icon: '/assets/icons/espaceetudiant.png', title: '' },
+  { icon: '/assets/icons/logo-research-dz-dark.png', title: '' },
+  { icon: '/assets/icons/logoASJP.png', title: '' },
+  { icon: '/assets/icons/pnst.jpg', title: '' },
+  { icon: '/assets/icons/logo_sndl.png', title: '' },
+  { icon: '/assets/icons/moodle.gif', title: '' },
+  { icon: '/assets/icons/dossier.jpg', title: '' },
+  { icon: '/assets/icons/library.png', title: '' },
+]

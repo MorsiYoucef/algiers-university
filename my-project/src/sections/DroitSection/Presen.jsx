@@ -20,7 +20,7 @@ const Presen = () => {
           <h1 className=" text-2xl font-bold text-center">
             المجــــد و الخلــــــــود لشهدائنـــــا الأبـــــــــرار
           </h1>
-          <h1 className=" text-2xl font-bold text-right w-[40%]">
+          <h1 className=" text-2xl font-bold text-right w-[40%] relative left-[34rem]">
             الدكتــــور قسايسية عيـــسى عميـــــد كليــة الحقـــوق- جامعة
             الجزائر 1-
           </h1>
