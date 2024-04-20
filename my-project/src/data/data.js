@@ -378,3 +378,40 @@ export const DroitPlatforme = [
   { icon: '/assets/icons/dossier.jpg', title: '' },
   { icon: '/assets/icons/library.png', title: '' },
 ]
+
+export const MiniInfoData = [
+  {
+    imgURL: '/assets/images/2 (1).jpg',
+    title: 'إعلان عن كيفية إيداع مذكرات التخرج',
+    date: ' أبريل، 2024 ',
+  },
+  {
+    imgURL: '/assets/images/2 (1).jpg',
+    title: 'إعلان هام للطلبة المقبلين على التخرج',
+    date: 'أبريل، 2024 ',
+  },
+  {
+    imgURL: '/assets/images/master-1-1 (1).jpg',
+    title: 'إعلان خاص بطلبة الأولى ماستر',
+    date: 'أبريل، 2024 ',
+  },
+]
+
+export const IntertainData = [
+  {
+    imgURL: '/assets/images/fac-islamique.univ-alger.dz__p=3415.png',
+    title: 'إعلان بخصوص تنظيم دورات تكوينية في رياضة الريجبي(RUGBY)',
+    date: 'فبراير، 2024',
+  },
+  {
+    imgURL: '/assets/images/fac-islamique.univ-alger.dz__p=3445.png',
+    title: 'برنامج تعاون ” المسرح في رحاب الجامعة “',
+    date: 'فبراير، 2024',
+  },
+  // {
+  //   imgURL: '/assets/images/fac-islamique.univ-alger.dz__p=3509.png',
+  //   title:
+  //     'المسابقة الطلابية التحديث البيئي و الاجتماعي و الإقتصادي SHESEM 2024',
+  //   date: 'فبراير، 2024',
+  // },
+]

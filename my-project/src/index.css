@@ -26,7 +26,7 @@ html {
   }
   .slider {
     @apply bg-cover h-[65vh] w-full shadow-lg;
-    background-image: url('/assets/images/anotheralgiers 1.svg');
+    background-image: url('/assets/images/img-gard-fotor.jpg');
   }
   .medecineIMG {
     @apply bg-cover h-[65vh] w-full shadow-lg;
