@@ -9,7 +9,7 @@ const Formation = () => {
 
       <div className=" flex flex-wrap justify-center items-center gap-20">
         <Link to="/Medecine">
-          <div className=" flex  flex-col  text-justify border justify-center items-center p-5 gap-2">
+          <div className=" flex  flex-col  text-justify border justify-center items-center hover:scale-110 transition duration-300 p-5 gap-2">
             <img src="/assets/images/logocard.jpg" alt="logo" width={200} />
             <hr />
             <h1 className="text-2xl font-bold text-my-blue ">
@@ -18,7 +18,7 @@ const Formation = () => {
           </div>
         </Link>
         <Link to="/Pharmacy">
-          <div className=" flex  flex-col  text-justify border justify-center items-center p-5 gap-2">
+          <div className=" flex  flex-col  text-justify border justify-center items-center hover:scale-110 transition duration-300 p-5 gap-2">
             <img src="/assets/images/logocard.jpg" alt="logo" width={200} />
             <hr />
             <h1 className="text-2xl font-bold text-my-blue">
@@ -28,7 +28,7 @@ const Formation = () => {
         </Link>
 
         <Link to="/Science">
-          <div className=" flex  flex-col  text-justify border justify-center items-center p-5 gap-2">
+          <div className=" flex  flex-col  text-justify border justify-center items-center hover:scale-110 transition duration-300 p-5 gap-2">
             <img src="/assets/images/logocard.jpg" alt="logo" width={200} />
             <hr />
             <h1 className="text-2xl font-bold text-my-blue">
@@ -38,7 +38,7 @@ const Formation = () => {
         </Link>
 
         <Link to="/ScienceIslamique">
-          <div className=" flex  flex-col  text-justify border justify-center items-center p-5 gap-2">
+          <div className=" flex  flex-col  text-justify border justify-center items-center hover:scale-110 transition duration-300 p-5 gap-2">
             <img src="/assets/images/logocard.jpg" alt="logo" width={200} />
             <hr />
             <h1 className="text-2xl font-bold text-my-blue">
@@ -50,7 +50,7 @@ const Formation = () => {
           </div>
         </Link>
         <Link to="/Droit">
-          <div className=" flex  flex-col  text-justify border justify-center items-center p-5 gap-2 ">
+          <div className="  flex  flex-col  text-justify border justify-center items-center hover:scale-110 transition duration-300 p-5 gap-2 ">
             <img src="/assets/images/logocard.jpg" alt="logo" width={200} />
             <hr />
             <h1 className="text-2xl font-bold text-my-blue">

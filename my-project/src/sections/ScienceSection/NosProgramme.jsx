@@ -9,7 +9,11 @@ const NosProgramme = () => {
       <div className=" grid grid-cols-3 gap-16 p-10">
         {ScienceProg.map((prog) => (
           <div className=" grid gap-5">
-            <img src={prog.imgURL} alt={prog.title} />
+            <img
+              src={prog.imgURL}
+              alt={prog.title}
+              className="hover:scale-110 hover:opacity-75 transition duration-300"
+            />
             <h1 className=" text-2xl font-bold text-center">{prog.title}</h1>
           </div>
         ))}

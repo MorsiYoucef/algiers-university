@@ -23,7 +23,7 @@ const Science = () => {
         </section>{' '}
         <section>
           <div className="feature"></div>
-          <div className="slider "></div>
+          <div className="scienceImg "></div>
         </section>
         <section>
           <NosActualite />

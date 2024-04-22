@@ -26,11 +26,15 @@ html {
   }
   .slider {
     @apply bg-cover h-[65vh] w-full shadow-lg;
-    background-image: url('/assets/images/img-gard-fotor.jpg');
+    background-image: url('/assets/images/img-gard-fotor (1).jpg');
+  }
+  .scienceImg {
+    @apply bg-cover h-[65vh] w-full shadow-lg;
+    background-image: url('/assets/images/anotheralgiers 1.svg');
   }
   .medecineIMG {
     @apply bg-cover h-[65vh] w-full shadow-lg;
-    background-image: url('/assets/images/me.jpg');
+    background-image: url('/assets/images/me (1).jpg');
   }
   .pharmacyIMG {
     @apply bg-cover h-[65vh] w-full shadow-lg;

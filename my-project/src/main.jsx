@@ -8,9 +8,11 @@ import './index.css'
 import Medecine from './pages/Medecine.jsx'
 import Pharmacy from './pages/Pharmacy.jsx'
 import Droit from './pages/Droit.jsx'
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/ScienceIslamique" element={<ScienceIslamique />} />

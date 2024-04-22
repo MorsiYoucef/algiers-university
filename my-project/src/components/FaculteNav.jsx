@@ -1,5 +1,6 @@
 import { NavLeft, NavRight } from '../data/data'
 import TwoItems from '../components/TowItems'
+import { motion } from 'framer-motion'
 
 const FaculteNav = (props) => {
   return (

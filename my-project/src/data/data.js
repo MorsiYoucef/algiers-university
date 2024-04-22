@@ -324,9 +324,9 @@ export const ClubS = [
 ]
 
 export const ScienceStat = [
-  { iconURL: '/assets/icons/prof.svg', num: '+595', title: 'Etudiant' },
-  { iconURL: '/assets/icons/student.svg', num: '+285', title: 'Enseignant' },
-  { iconURL: '/assets/icons/users-solid 2.svg', num: '+178', title: 'ATS' },
+  { iconURL: '/assets/icons/prof.svg', num: '595', title: 'Etudiant' },
+  { iconURL: '/assets/icons/student.svg', num: '285', title: 'Enseignant' },
+  { iconURL: '/assets/icons/users-solid 2.svg', num: '178', title: 'ATS' },
 ]
 
 export const DroitNewsContent = [

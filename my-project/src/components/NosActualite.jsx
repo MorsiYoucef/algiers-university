@@ -18,7 +18,7 @@ const NosActualite = () => {
     pauseOnHover: true,
   }
   return (
-    <section className="p-20">
+    <section className="p-10">
       <h1 className="text-my-blue text-2xl font-bold mb-5">Nos Actualite</h1>
       <div
         className="grid gap-10  "

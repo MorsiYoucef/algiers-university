@@ -25,7 +25,7 @@ const ScienceIslamique = () => {
           <InfoBase />
         </section>
         <section>
-          <Statiscics />
+          <Statiscics start={0} end={1800} />
         </section>
         <section>
           <Intertainement />
