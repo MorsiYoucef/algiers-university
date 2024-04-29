@@ -3,7 +3,7 @@ import SearchBar from './SearchBar'
 
 const InfoArab = () => {
   return (
-    <section>
+    <section className="  relative top-1">
       <div className=" bg-my-green text-white  ">
         <ul className=" flex flex-row justify-center items-center gap-10 w-[1286px]">
           <li>

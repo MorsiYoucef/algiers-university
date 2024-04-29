@@ -1,10 +1,20 @@
 import { NavLeft, NavRight } from '../data/data'
 import SearchBar from './SearchBar'
 import TwoItems from './TowItems'
+import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const Nav = () => {
+  const navigate = useNavigate() // Create a navigate function from React Router
+
+  const handleSelectChange = (event) => {
+    const selectedValue = event.target.value // Get the selected value
+    if (selectedValue) {
+      navigate(selectedValue) // Navigate to the appropriate route
+    }
+  }
   return (
-    <div className=" border-b">
+    <div className=" border-b fixed w-full z-[9999] top-0">
       <div className=" grid grid-cols-3 justify-items-end align-items-end bg-my-green text-white gap-0 h-10">
         <div className=" flex flex-row gap-8 justify-center items-center ">
           {NavLeft.map((left) => (
@@ -23,17 +33,20 @@ const Nav = () => {
         <div>
           <div className=" flex flex-row gap-10 ">
             {/* <div className=" h-10 w-1 bg-white"></div> */}
-            <div className=" border-l-2 h-full">
+            <div className="border-l-2 h-full pl-2">
               <select
                 name="faculty"
-                className=" bg-my-green bg-opacity-25 h-10"
+                className="bg-my-green bg-opacity-25 h-10"
+                onChange={handleSelectChange} // Set up the change event handler
               >
-                <option value="">autre faculte</option>
-                <option value="SI">faculte des Science islamique</option>
-                <option value="S">faculte des sciences</option>
-                <option value="M">faculte de medecine </option>
-                <option value="Ph">faculte de pharmacie </option>
-                <option value="Dr">faculte de droit </option>
+                <option value="">les autres site de l'university</option>
+                <option value="/ScienceIslamique">
+                  faculte des Science islamique
+                </option>
+                <option value="/Sciences">faculte des sciences</option>
+                <option value="/Medecine">faculte de medecine</option>
+                <option value="/Pharmacie">faculte de pharmacie</option>
+                <option value="/Droit">faculte de droit</option>
               </select>
             </div>
             <div className=" border-l-2">
@@ -57,12 +70,88 @@ const Nav = () => {
           height={150}
         />
         <ul className=" flex flex-row gap-20 justify-center items-center">
-          <li>Actualite</li>
-          <li>universite</li>
-          <li>recherche</li>
-          <li>formation</li>
-          <li>incubateur</li>
-          <li>incubateurantine</li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Actualite
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Activités du Recteur</a>
+                <a href="#">Calendrier des évènements</a>
+                <a href="#">Consultations et appels d’offres</a>
+                <a href="#">Textes réglementaires</a>
+                <a href="#">consultation et appel d'offre</a>
+                <a href="#">text reglementaire</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">
+                universite
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">
+                recherche
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">
+                formation
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">
+                incubateur
+                <i class="fa fa-angle-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">
+                incubateurantine
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </li>
+
           <li>
             <SearchBar />
           </li>

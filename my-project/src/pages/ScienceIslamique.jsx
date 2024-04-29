@@ -14,10 +14,10 @@ const ScienceIslamique = () => {
         mainTitle="Sciences islamiques"
         mainColor="text-my-original-green"
       />
-      <div className=" max-w-[1286px] mx-auto border-l border-r ">
-        <section className=" flex justify-center items-center  w-full">
-          <InfoArab />
-        </section>
+      <section className="fixed flex justify-center items-center w-full relative top-16">
+        <InfoArab />
+      </section>
+      <div className=" max-w-[1286px] mx-auto border-l border-r relative top-[4.1rem]">
         <section>
           <HeroInfo />
         </section>
@@ -31,7 +31,7 @@ const ScienceIslamique = () => {
           <Intertainement />
         </section>
       </div>
-      <div className="bg-my-blue grid gap-10 pt-10">
+      <div className="bg-my-blue grid gap-10 pt-10 relative top-[4.1rem]">
         <Footer />
       </div>
     </main>

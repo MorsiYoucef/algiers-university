@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const FaculteNav = (props) => {
   return (
-    <div className=" ">
+    <div className="fixed w-full z-[9999] top-0 bg-white">
       <div className=" grid grid-cols-3 justify-items-end align-items-end bg-my-green text-white gap-0 ">
         <div className=" flex flex-row gap-8 justify-center items-center ">
           {NavLeft.map((left) => (
@@ -56,7 +56,6 @@ const FaculteNav = (props) => {
             width={200}
             className=" border-r-2 pr-2 mr-2"
           />
-
           <h1 className="text-[28px] font-bold text-my-blue">
             كليـــــــــة
             <span className={`${props.mainColor}`}>{props.arabTitle}</span>
