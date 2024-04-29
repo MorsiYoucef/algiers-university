@@ -40,13 +40,24 @@ const Nav = () => {
                 onChange={handleSelectChange} // Set up the change event handler
               >
                 <option value="">les autres site de l'university</option>
-                <option value="/ScienceIslamique">
+                <option
+                  value="/ScienceIslamique"
+                  className=" text-my-blue font-bold"
+                >
                   faculte des Science islamique
                 </option>
-                <option value="/Sciences">faculte des sciences</option>
-                <option value="/Medecine">faculte de medecine</option>
-                <option value="/Pharmacie">faculte de pharmacie</option>
-                <option value="/Droit">faculte de droit</option>
+                <option value="/Sciences" className=" text-my-blue font-bold">
+                  faculte des sciences
+                </option>
+                <option value="/Medecine" className=" text-my-blue font-bold">
+                  faculte de medecine
+                </option>
+                <option value="/Pharmacie" className=" text-my-blue font-bold">
+                  faculte de pharmacie
+                </option>
+                <option value="/Droit" className=" text-my-blue font-bold">
+                  faculte de droit
+                </option>
               </select>
             </div>
             <div className=" border-l-2">
@@ -54,9 +65,15 @@ const Nav = () => {
                 name="language"
                 className=" bg-my-green bg-opacity-25 text-xl h-10"
               >
-                <option value="Fr">Fr</option>
-                <option value="En">En</option>
-                <option value="Ar">Ar</option>
+                <option value="Fr" className=" text-my-blue font-bold">
+                  Fr
+                </option>
+                <option value="En" className=" text-my-blue font-bold">
+                  En
+                </option>
+                <option value="Ar" className=" text-my-blue font-bold">
+                  Ar
+                </option>
               </select>
             </div>
           </div>
@@ -72,82 +89,125 @@ const Nav = () => {
         <ul className=" flex flex-row gap-20 justify-center items-center">
           <li>
             <div class="dropdown">
-              <button class="dropbtn">
+              <button className="dropbtn font-bold text-2xl">
                 Actualite
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="#">Activités du Recteur</a>
-                <a href="#">Calendrier des évènements</a>
-                <a href="#">Consultations et appels d’offres</a>
-                <a href="#">Textes réglementaires</a>
-                <a href="#">consultation et appel d'offre</a>
-                <a href="#">text reglementaire</a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Activités du Recteur
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Calendrier des évènements
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Consultations et appels d’offres
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Textes réglementaires
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  consultation et appel d'offre
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  text reglementaire
+                </a>
               </div>
             </div>
           </li>
           <li>
             <div class="dropdown">
-              <button class="dropbtn">
+              <button className="dropbtn font-bold text-2xl">
                 universite
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Le recteur
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Historique de l'universite
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Vice rectorat
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  secretariat generale
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  service
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  conseil d'ethique et de deontologie
+                </a>
               </div>
             </div>
           </li>
           <li>
             <div class="dropdown">
-              <button class="dropbtn">
+              <button className="dropbtn font-bold text-2xl">
                 recherche
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Evenement scientifique
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Laboratoire de recherche
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Production scientifique
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Revue de l'universite
+                </a>
               </div>
             </div>
           </li>
           <li>
             <div class="dropdown">
-              <button class="dropbtn">
-                formation
+              <button className="dropbtn font-bold text-2xl">
+                Formation
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Offre de formation
+                </a>
               </div>
             </div>
           </li>
           <li>
             <div class="dropdown">
-              <button class="dropbtn">
+              <button className=" font-bold  ">
                 incubateur
                 <i class="fa fa-angle-down"></i>
               </button>
-              <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
             </div>
           </li>
           <li>
             <div class="dropdown">
-              <button class="dropbtn">
-                incubateurantine
+              <button className="dropbtn font-bold">
+                Vie Etudiantine
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Œuvres Universitaires
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Guide universitaire
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Ville d'Alger
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Residence universitaire
+                </a>
+                <a href="#" className=" font-bold hover:text-my-blue">
+                  Bourse d'etude
+                </a>
               </div>
             </div>
           </li>

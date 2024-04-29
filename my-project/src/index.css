@@ -9,9 +9,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  padding-top: 60px;
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -76,7 +74,7 @@ select:focus {
   font-size: 16px;
   border: none;
   outline: none;
-  color: black;
+  /* color: black; */
   padding: 14px 16px;
   /* padding-bottom: 40px; */
   background-color: inherit;
@@ -87,7 +85,7 @@ select:focus {
 /* Add a red background color to navbar links on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  border: 1px solid grey;
+  color: #ff4e02;
 }
 
 /* Dropdown content (hidden by default) */
@@ -96,7 +94,7 @@ select:focus {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 16px 16px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -110,11 +108,13 @@ select:focus {
   text-align: left;
 }
 .dropdown-content a {
+  padding: 20px;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #1d0a5b;
+  color: #ff7518;
 }
 
 /* Show the dropdown menu on hover */

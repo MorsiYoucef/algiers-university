@@ -15,7 +15,7 @@ function App() {
   return (
     <main className="">
       <Nav />
-      <div className="max-w-[1286px] mx-auto border-l border-r relative top-20">
+      <div className="max-w-[1286px] mx-auto border-l border-r pt-[140px]">
         <section className=" flex justify-center items-center  w-full">
           <Hero />
         </section>
@@ -32,7 +32,7 @@ function App() {
           <VieEtudiant />
         </section>
       </div>
-      <section className=" bg-my-blue grid gap-10 pt-10 relative top-20 ">
+      <section className=" bg-my-blue grid gap-10 pt-10 ">
         <Footer />
       </section>
     </main>

@@ -306,14 +306,14 @@ export const scienceNav = [
   { title: 'Bibliotheque' },
 ]
 export const islamiqueNav = [
-  { title: 'عن الكلية' },
-  { title: 'الأقسام' },
-  { title: 'هيئة التدريس' },
-  { title: 'المجلس العلمي' },
-  { title: 'البحث و الانتاج العلمي و الثقافي' },
-  { title: 'خدمات عن بعد' },
   { title: 'المكتبة' },
   { title: 'تواصل معنا' },
+  { title: 'خدمات عن بعد' },
+  { title: 'البحث و الانتاج العلمي و الثقافي' },
+  { title: 'المجلس العلمي' },
+  { title: 'هيئة التدريس' },
+  { title: 'الأقسام' },
+  { title: 'عن الكلية' },
 ]
 
 export const ClubS = [

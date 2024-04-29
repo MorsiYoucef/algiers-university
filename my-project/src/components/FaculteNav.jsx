@@ -1,10 +1,9 @@
 import { NavLeft, NavRight } from '../data/data'
 import TwoItems from '../components/TowItems'
-import { motion } from 'framer-motion'
 
 const FaculteNav = (props) => {
   return (
-    <div className="fixed w-full z-[9999] top-0 bg-white">
+    <div className="">
       <div className=" grid grid-cols-3 justify-items-end align-items-end bg-my-green text-white gap-0 ">
         <div className=" flex flex-row gap-8 justify-center items-center ">
           {NavLeft.map((left) => (
