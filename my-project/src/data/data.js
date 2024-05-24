@@ -145,24 +145,20 @@ export const ScienceProg = [
 
 export const scienceNew = [
   {
-    title: 'Reaching for the STARS in sustainability',
-    description:
-      'University earns Platinum status in major sustainability rating six years ahead of target',
+    title: 'Programme d’enseignement en Architecture',
+    description: '',
   },
   {
-    title: 'Reaching for the STARS in sustainability',
-    description:
-      'University earns Platinum status in major sustainability rating six years ahead of target',
+    title: 'Candidature au Conseil Scientifique de l’Université (CSU)',
+    description: '',
   },
   {
-    title: 'Reaching for the STARS in sustainability',
-    description:
-      'University earns Platinum status in major sustainability rating six years ahead of target',
+    title: 'Programme de bourses Indiens',
+    description: '',
   },
   {
-    title: 'Reaching for the STARS in sustainability',
-    description:
-      'University earns Platinum status in major sustainability rating six years ahead of target',
+    title: 'Annonce du concours de recrutement sur titres pour l’année 2024',
+    description: '',
   },
 ]
 
@@ -382,7 +378,7 @@ export const DroitPlatforme = [
 export const MiniInfoData = [
   {
     imgURL: '/assets/images/2 (1).jpg',
-    title: 'إعلان عن كيفية إيداع مذكرات التخرج',
+    title: 'إعلان عن كيفية إيداع مذكرات التخر',
     date: ' أبريل، 2024 ',
   },
   {

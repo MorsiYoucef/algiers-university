@@ -1,7 +1,16 @@
 import { NavLeft, NavRight } from '../data/data'
 import TwoItems from '../components/TowItems'
+import { useNavigate } from 'react-router-dom'
 
 const FaculteNav = (props) => {
+  const navigate = useNavigate() // Create a navigate function from React Router
+
+  const handleSelectChange = (event) => {
+    const selectedValue = event.target.value // Get the selected value
+    if (selectedValue) {
+      navigate(selectedValue) // Navigate to the appropriate route
+    }
+  }
   return (
     <div className="">
       <div className=" grid grid-cols-3 justify-items-end align-items-end bg-my-green text-white gap-0 ">
@@ -24,24 +33,44 @@ const FaculteNav = (props) => {
             <div className=" border-l-2 h-full">
               <select
                 name="faculty"
-                className=" bg-my-green bg-opacity-25 h-10"
+                className="bg-my-green bg-opacity-25 h-10"
+                onChange={handleSelectChange} // Set up the change event handler
               >
-                <option value="">autre faculte</option>
-                <option value="SI">faculte des Science islamique</option>
-                <option value="S">faculte des sciences</option>
-                <option value="M">faculte de medecine </option>
-                <option value="Ph">faculte de pharmacie </option>
-                <option value="Dr">faculte de droit </option>
+                <option value="">les autres site de l'university</option>
+                <option
+                  value="/ScienceIslamique"
+                  className=" text-my-blue font-bold"
+                >
+                  faculte des Science islamique
+                </option>
+                <option value="/Science" className=" text-my-blue font-bold">
+                  faculte des sciences
+                </option>
+                <option value="/Medecine" className=" text-my-blue font-bold">
+                  faculte de medecine
+                </option>
+                <option value="/Pharmacy" className=" text-my-blue font-bold">
+                  faculte de pharmacie
+                </option>
+                <option value="/Droit" className=" text-my-blue font-bold">
+                  faculte de droit
+                </option>
               </select>
             </div>
             <div className=" border-l-2">
               <select
                 name="language"
-                className=" bg-my-green bg-opacity-25 h-10"
+                className=" bg-my-green bg-opacity-25 text-xl h-10"
               >
-                <option value="Fr">Fr</option>
-                <option value="En">En</option>
-                <option value="Ar">Ar</option>
+                <option value="Fr" className=" text-my-blue font-bold">
+                  Fr
+                </option>
+                <option value="En" className=" text-my-blue font-bold">
+                  En
+                </option>
+                <option value="Ar" className=" text-my-blue font-bold">
+                  Ar
+                </option>
               </select>
             </div>
           </div>

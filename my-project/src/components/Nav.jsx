@@ -46,13 +46,13 @@ const Nav = () => {
                 >
                   faculte des Science islamique
                 </option>
-                <option value="/Sciences" className=" text-my-blue font-bold">
+                <option value="/Science" className=" text-my-blue font-bold">
                   faculte des sciences
                 </option>
                 <option value="/Medecine" className=" text-my-blue font-bold">
                   faculte de medecine
                 </option>
-                <option value="/Pharmacie" className=" text-my-blue font-bold">
+                <option value="/Pharmacy" className=" text-my-blue font-bold">
                   faculte de pharmacie
                 </option>
                 <option value="/Droit" className=" text-my-blue font-bold">
